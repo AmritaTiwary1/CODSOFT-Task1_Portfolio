@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles specific to sections */
+#about{
+    background-color:#787070;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    color: rgb(246, 235, 235);
+}
+#about p{
+    font-size: 20px;
+    justify-content:space-around;
+}
+h2{
+    text-align: center;
+    color: rgb(33, 2, 59);
+}
+h3{
+    color:darkcyan ;
+}
+.logo{
+    margin-left: 34px;
+}
+
+
+.logoBox{
+    display: flex;}
+
+#projects {
+    background-color: #b5aeae;
+}
+
+.project {
+    margin-bottom: 30px;
+    background-color:white;
+    padding-bottom: 34px;
+    color: rgb(15, 14, 14);
+    padding: 23px 23px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+ }
+
+iframe{
+ margin-top: 23px;
+    margin-left: 30px;
+}
+.project a{
+    margin-bottom: 34px;
+}
+
+.info{
+    display: flex;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
